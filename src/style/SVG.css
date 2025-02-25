@@ -1,0 +1,71 @@
+
+#flower,#flower2{
+    width: 15vw;
+    height: 15vh;
+    max-width: 6rem; 
+    min-width: 3rem;
+    
+}
+.flower-container{
+    position: absolute;
+    top: 30vh;
+    left: 50vw;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.line-svg {
+    height: 100%;
+    width: 100%;
+}
+#F,#D{
+    
+    position: relative;
+    
+    
+}
+#F {
+    span{
+        opacity: 0;
+    }
+    svg{
+    position: absolute;
+    width: 13vw;
+    height: auto;
+    translate: -35% 5%;
+    z-index: -1;
+    
+}}
+#D {
+    span{
+        opacity: 0;
+    }
+   svg{
+    position: absolute;
+    width: 10.9vw;
+    height: auto;
+    translate: -25% 20%;
+    rotate: 90deg;
+    opacity: 0;
+} 
+}
+
+#ideas{
+    position: relative;
+    svg{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        bottom: 50%;
+    }
+}
+
+.textpath2 svg{
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 1;
+    
+}

@@ -1,0 +1,45 @@
+.FirstMain{
+    position: relative;
+}
+.gridiantbackgrond{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    inset: 0;
+    margin: auto;
+    filter: blur(100px);
+    opacity: 0.2;
+    
+}
+
+.blob-continer{
+    border-radius: 99999px;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    min-width: 1000px;
+    overflow: hidden;
+    background-color: aliceblue;
+ 
+
+}
+.bg-blob{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    margin: auto;
+    background:conic-gradient(
+    from 0deg,#2E073F,#2a073d,#7f29ad,#805de0
+    );
+    animation: spinblob 10s linear infinite;
+}
+@keyframes spinblob {
+    0% {
+        transform: rotate(0deg) scale(2);
+    }
+    100% {
+        transform: rotate(1turn) scale(2);
+    }
+}
